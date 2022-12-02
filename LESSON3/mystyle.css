@@ -1,0 +1,50 @@
+body {
+    background-color: #f1f1f1;
+    /*background-image: url("./images/ustech.jpeg");*/
+    /*background-repeat: repeat-x; repeat-y*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    color: red;
+}
+
+.paragraph-rule {
+    border-style: double;
+    background-color: chocolate;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.divs {
+    background: orange;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0 0 -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span-rule{
+    color: yellow;
+    border: 3px solid blue;
+    padding: 2px;
+    background-color: blueviolet;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+
